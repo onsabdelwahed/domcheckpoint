@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esport shop</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/66d99efde5.js" crossorigin="anonymous"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Use an element to toggle between a like/dislike icon -->
+<i onclick="myFunction(this)" class="fa-solid fa-heart"></i>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="box">
+        <h2>PRODUCT_1</h2>
+        <img src="5.jpg" alt="donut" width="180" , height="175" />
+        <button type="button" class=" btn btn-primary plus">+</button>
+        <input type="text" value="0" disabled class="quantity" />
+        <button type="button" class="btn btn-primary minus">-</button>
+        <button type="button" class="btn btn-danger delete-btn">DELETE</button>
+        <span class="price">$190</span>
+        <i class="heart fa fa-heart-o"></i>
+      </div>
+
+      <div class="box">
+        <h2>PRODUCT_2</h2>
+        <img src="4.jpg" alt="twin" width="180" , height="175" />
+        <button type="button" class="btn btn-primary plus">+</button>
+        <input type="text" value="0" disabled class="quantity" />
+        <button type="button" class="btn btn-primary minus">-</button>
+        <button type="button" class="btn btn-danger delete-btn">DELETE</button>
+        <span class="price">$800</span>
+        <i class="heart fa fa-heart-o"></i>
+        </div>
+        <div class="box">
+        <h2>PRODUCT_3</h2>
+        <img src="6.webp" width="180" , height="175" />
+        <button type="button" class="btn btn-primary plus">+</button>
+        <input type="text" value="0" disabled  class="quantity"/><i class="heart fa fa-heart-o"></i>
+        <button type="button" class="btn btn-primary minus">-</button>
+        <button type="button" class="btn btn-danger delete-btn">DELETE</button>
+        <span class="price">$100</span>
+
+        </div>
+    </div>
+    <div>
+    <div id="total-cost"><h2>total-cost:</h2></div>
+    <div id="cart-items"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</body>
+</html>
